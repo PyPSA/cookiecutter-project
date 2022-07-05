@@ -1,7 +1,8 @@
 {
     "project_name": "Reproducible Research Project",
     "project_short_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-    "repository": "account/{{cookiecutter.project_short_name}}",
+    "account": "Repository's account",
+    "repository": "{{ cookie_cutter.account }}/{{cookiecutter.project_short_name}}",
     "given_name": "Your given name",
     "surname": "Your surname",
     "email": "Your e-mail address",
